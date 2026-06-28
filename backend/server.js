@@ -8,7 +8,7 @@ const app = express();
 // CORS
 const allowedOrigins = [
   process.env.FRONTEND_URL || 'http://localhost:3000',
-  'https://task-tracker-frontend.vercel.app', // update with your deployed URL
+  'https://task-tracker-mern-eight.vercel.app/', // update with your deployed URL
 ];
 
 app.use(
